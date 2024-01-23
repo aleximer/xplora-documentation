@@ -9,6 +9,11 @@ Content-Type: application/x-www-form-urlencoded
 
 imei={imei}
 
+RESPONSE
+Location: https://{activation_url}?imei=imei
+OR
+Location: https://{referrer_url}?error=imei_not_found
+
 ```
 
 > [!info]
