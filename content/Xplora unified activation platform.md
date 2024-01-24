@@ -1,3 +1,8 @@
+---
+dg-home: true
+dg-publish: true
+---
+
 Welcome to Xplora documentation, build with Obsidian and Quartz
 
 Backend: [Laravel 7](https://laravel.com/docs/7.x/installation)
