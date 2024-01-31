@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 Sync orders from Rhiem warehouse, if order status  is shipped and `Positions->Position->Serials->Serial->SerialNumber` is set  and it's a valid IMEI address: watch with this IMEI number exists in database, and is not taken and does not have subscription ID we try to activate watch' mobile subscription.
 
 Command uses [[Shipping and 3PL integrations#Rhiem integration Germany and France | Rheim Soap]] service
@@ -18,7 +21,7 @@ Options:
 
  > [!info]
  > Usage:
- > `rhiem:sync [options] [--] \<country>`
+ > `rhiem:sync [options] [--] <country>`
  > 
  > Arguments:
  >   country

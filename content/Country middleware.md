@@ -1,1 +1,1 @@
-##
+The CountryMiddleware is used to connect specific subdomains to the correct language and surface. This allows the correct $country and $surface variables to be passed to these custom subdomains, ensuring the right content is delivered to users based on their location
