@@ -21,13 +21,14 @@ Arguments:
 Options:
 
 --subscription[=SUBSCRIPTION] Only charges specific subscription
---invoice-type[=TYPE]
-        {--all-the-time}
-        {--dry-run}
-        {--validate-mandate}
---find-mandate    Works with combination with {--subscription} - displays info about mandate for gives subscription id 
-        {--cancel-invalid}
-        {--skip-failed}
+--invoice-type[=TYPE]         Sync only specific invoice type (f.ex. only new invoices and skip failed)
+--all-the-time.               Do not limit [[#Invoice date limiting]]
+--dry-run                     Test run 
+--validate-mandate            Checks for mandate's validity via payment APIs, can be cancelled with combination with {--cancel-invalid}
+
+--find-mandate                 Works with combination with {--subscription} - displays info about mandate for gives subscription id
+--cancel-invalid Cancel invalid payment mandates. See {--find-mandate}
+--skip-failed                  Do not process `\App\Services\Invoice::TYPE_FAILED` invoices
 ```
 
 ## Sync download

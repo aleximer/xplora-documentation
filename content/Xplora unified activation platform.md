@@ -14,6 +14,10 @@ Frontend: [Blade templates](https://laravel.com/docs/7.x/blade) + [Alpine JS](ht
 
 ## Branches
 
+> [!NOTE] Master branch is not a master
+> Master branch was intended to be the latest version on Laravel on the new XUA server. Migration is still planned
+
+
 ### Production
 
 Site: [https://xploramobile.com/xua/](https://dev.xploramobile.com/xua/)
