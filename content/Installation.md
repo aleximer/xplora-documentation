@@ -42,8 +42,9 @@ npm i
 npm run dev
 
 ```
-Copy `app/xplora-unified-activation/web/.env.example` to `app/xplora-unified-activation/web/.env.example` and open it with the editor of your choice. Change database values:
+Copy `app/xplora-unified-activation/web/.env.example` to `app/xplora-unified-activation/web/.env` and open it with the editor of your choice.
 
+Change database values there:
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
