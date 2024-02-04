@@ -10,6 +10,8 @@ Backend: [Laravel 7](https://laravel.com/docs/7.x/installation)
  > [!warning]
  > XUA is running on outdated server with PHP 7.2 at the moment. Laravel 7 is the latest supported version for PHP 7.2
 
+^9a8e35
+
 Frontend: [Blade templates](https://laravel.com/docs/7.x/blade) + [Alpine JS](https://alpinejs.dev/) + [Tailwind CSS](https://tailwindcss.com/docs/installation)
 
 ## Branches
