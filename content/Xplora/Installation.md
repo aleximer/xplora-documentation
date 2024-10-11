@@ -18,14 +18,6 @@ open http://127.0.0.1:8000
 Create a new site with default settings, choose whatever you want for login a password. We're going to delete WordPress installation anyway.
 
 
-> [!WARNING] PHP versions
-> Branches `xploramoblie` and `laravel-7` work on the server with [[Xplora unified activation platform#^9a8e35|version 7.2]] 
-> 
-> If you have composer or compatibility problems choose PHP version 7 (7.4.30 or 7.3.5) when installing. You can switch later if you have site already set up:
-> 
-> ![[CleanShot 2024-02-04 at 19.33.00.png]]
-
-
 ![[CleanShot 2024-02-02 at 11.48.44.png]]
 
 Wait when site has finished installing and open site shell
@@ -76,8 +68,6 @@ php artisan migrate:fresh --seed
 php artisan cache:clear
 ```
 
-> [!WARNING] Use [[Xplora unified activation platform#Branches]] for development
-> `master` branch is not the main branch to work with
 
 > [!TIP] You can set `APP_URL` value in `.env` file to reflect domain in Local
 > It will help Laravel to generate correct links in CLI

@@ -5,26 +5,18 @@ dg-publish: true
 
 Welcome to Xplora documentation, build with Obsidian and Quartz
 
-Backend: [Laravel 7](https://laravel.com/docs/7.x/installation)
+Backend: [Laravel 11](https://laravel.com/docs/11.x/installation)
 
- > [!warning]
- > XUA is running on outdated server with PHP 7.2 at the moment. Laravel 7 is the latest supported version for PHP 7.2
 
-^9a8e35
-
-Frontend: [Blade templates](https://laravel.com/docs/7.x/blade) + [Alpine JS](https://alpinejs.dev/) + [Tailwind CSS](https://tailwindcss.com/docs/installation)
+Frontend: [Blade templates](https://laravel.com/docs/11.x/blade) + [Alpine JS](https://alpinejs.dev/) + [Tailwind CSS](https://tailwindcss.com/docs/installation)
 
 ## Branches
 
-> [!NOTE] Master branch is not a master
-> Master branch was intended to be the latest version on Laravel on the new XUA server. Migration is still planned
-
-
 ### Production
 
-Site: [https://xploramobile.com/xua/](https://dev.xploramobile.com/xua/)
-Branch: `xploramobile`
-Repo: https://bitbucket.org/xploranose/xplora-unified-activation/src/xploramobile/
+Site: [https://xua.xploramobile.com/](https://xua.xploramobile.com/)
+Branch: `master`
+Repo: https://bitbucket.org/xploranose/xplora-unified-activation/src/master/
 Location: sftp://xploramobile.com/srv/prod/xua
 
 ### Development
