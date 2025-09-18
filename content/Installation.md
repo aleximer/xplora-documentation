@@ -2,7 +2,7 @@
 ```
 git clone git@bitbucket.org:xploranose/xplora-unified-activation.git
 cd web
-# Copy .env file from ftp://xploramobile.com/srv/dev/xua/
+# Copy .env file from sftp://xua.xploramobile.com/var/www/xua-dev
 # Create database
 # Change DB credentials in .env file to point to your database
 composer install
